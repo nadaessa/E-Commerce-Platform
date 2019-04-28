@@ -48,7 +48,8 @@ gem 'cancancan', '~> 1.15'
 # resque Gem
 gem 'resque', '~> 1.25', '>= 1.25.2'
 
-
+# chartjs-ror Gem
+gem 'chartjs-ror'
 
 
 
