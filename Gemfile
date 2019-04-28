@@ -45,6 +45,12 @@ gem 'devise', '~> 4.2'
 # CanCanCan Gem
 gem 'cancancan', '~> 1.15'
 
+# resque Gem
+gem 'resque', '~> 1.25', '>= 1.25.2'
+
+
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
