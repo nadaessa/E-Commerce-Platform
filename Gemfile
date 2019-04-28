@@ -9,6 +9,12 @@ gem 'rails', '~> 5.2.3'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+gem 'sass-rails', '~> 5.0'
+gem 'bootstrap', '~> 4.3.1'
+gem 'sprockets-rails', '~> 3.2'
+gem 'jquery-rails'
+gem 'bootstrap-sass', '3.0.2.1'
+gem 'popper_js', '~> 1.14.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
