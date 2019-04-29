@@ -128,7 +128,7 @@ ActiveRecord::Schema.define(version: 2019_04_29_091908) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"
-    t.integer "coupone"
+    t.integer "coupone_id"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
