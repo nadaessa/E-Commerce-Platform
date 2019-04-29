@@ -57,7 +57,8 @@ gem 'resque', '~> 1.25', '>= 1.25.2'
 # chartjs-ror Gem
 gem 'chartjs-ror'
 
-
+# simple_form Gem
+gem 'simple_form'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
