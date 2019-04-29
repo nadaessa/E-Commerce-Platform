@@ -100,7 +100,7 @@ ActiveRecord::Schema.define(version: 2019_04_29_091908) do
   create_table "products", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
     t.string "title"
     t.text "description"
-    t.integer "price"
+    t.float "price"
     t.integer "quantity"
     t.string "image", default: "null"
     t.datetime "created_at", null: false
