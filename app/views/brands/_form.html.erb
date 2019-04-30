@@ -1,0 +1,21 @@
+<div class="card">
+<h5 class="card-header info-color white-text text-center py-4">
+   <strong>Create Brand</strong>
+</h5>
+<div class="card-body px-lg-5 pt-0" class= "text-center" style= "color: #757575">
+<%= form_with model: @brand, local: true do |form| %>
+   
+  
+    <div class="md-form">
+      <%= form.label :name %>
+      <br>
+      <%= form.text_area :name, class: "form-control" %>
+    </div>
+    <br>
+    <div>
+      <%= form.submit %>
+    </div>
+   
+  <% end %>
+
+</div>
