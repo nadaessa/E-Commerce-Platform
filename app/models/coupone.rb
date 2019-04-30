@@ -1,4 +1,7 @@
 class Coupone < ApplicationRecord
-    enum type_status: [:fixed, :discount]
-    belongs_to :state, foreign_key: "state_id"
+    enum coupone_type: [:fixed, :discount]
+    enum expiration_type: [:time, :noOfUsage]
+    enum state: [:available, :unavailable]
+    has_many:userCoupone
+    
 end

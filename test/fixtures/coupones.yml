@@ -1,7 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  coupone_type: 1
   value: 1
+  expiration_type: 1
+  time: 2019-04-29
+  noOfUsage: 1
+  state: 1
 
 two:
+  coupone_type: 1
   value: 1
+  expiration_type: 1
+  time: 2019-04-29
+  noOfUsage: 1
+  state: 1

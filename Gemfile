@@ -15,6 +15,8 @@ gem 'sprockets-rails', '~> 3.2'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '3.0.2.1'
 gem 'popper_js', '~> 1.14.5'
+gem 'font-awesome-sass', '~> 5.8.1'
+gem 'faker', '~> 1.6', '>= 1.6.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -56,7 +58,6 @@ gem 'resque', '~> 1.25', '>= 1.25.2'
 
 # chartjs-ror Gem
 gem 'chartjs-ror'
-
 
 
 group :development, :test do
