@@ -22,3 +22,9 @@
         name: Faker::Appliance.brand
     }])
     end
+
+9.times do
+    Category.create([{
+        name: Faker::Commerce.department(1, true)
+    }])
+    end
